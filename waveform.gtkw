@@ -1,0 +1,111 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Sat Jul 16 19:18:35 2022
+[*]
+[dumpfile] "/home/laurent/Development/rtl/uart/vunit_out/test_output/lib.uart_tb.echo_default_025b40e6bc56e6f85fee1642db898085444ec84f/ghdl/wave.ghw"
+[dumpfile_mtime] "Sat Jul 16 17:49:20 2022"
+[dumpfile_size] 604914
+[savefile] "/home/laurent/Development/rtl/uart/waveform.gtkw"
+[timestart] 966770000000
+[size] 2560 1371
+[pos] -1 -1
+*-33.000000 989830000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.uart_tb.
+[treeopen] top.uart_tb.dut.
+[treeopen] top.uart_tb.dut.b_rx.
+[treeopen] top.uart_tb.dut.b_rx.buf.
+[treeopen] top.uart_tb.dut.b_tx.
+[treeopen] top.uart_tb.dut.b_tx.buf.
+[sst_width] 230
+[signals_width] 264
+[sst_expanded] 1
+[sst_vpaned_height] 412
+@28
+top.uart_tb.dut.autobaud_en_i
+top.uart_tb.dut.stop_bits_i
+top.uart_tb.dut.parity_type_i
+top.uart_tb.dut.parity_en_i
+top.uart_tb.dut.en_i
+top.uart_tb.dut.txbe_o
+top.uart_tb.dut.underrun_err_o
+top.uart_tb.dut.overrun_err_o
+top.uart_tb.dut.framing_err_o
+top.uart_tb.dut.parity_err_o
+top.uart_tb.dut.rxdr_o
+top.uart_tb.dut.tx_wr_i
+top.uart_tb.dut.rx_rd_i
+top.uart_tb.dut.rx_i
+top.uart_tb.dut.tx_o
+top.uart_tb.dut.rst_i
+top.uart_tb.dut.clk_i
+@22
+#{top.uart_tb.dut.tx_i[7:0]} top.uart_tb.dut.tx_i[7] top.uart_tb.dut.tx_i[6] top.uart_tb.dut.tx_i[5] top.uart_tb.dut.tx_i[4] top.uart_tb.dut.tx_i[3] top.uart_tb.dut.tx_i[2] top.uart_tb.dut.tx_i[1] top.uart_tb.dut.tx_i[0]
+@c00022
+>10000
+#{top.uart_tb.dut.rx_o[7:0]} top.uart_tb.dut.rx_o[7] top.uart_tb.dut.rx_o[6] top.uart_tb.dut.rx_o[5] top.uart_tb.dut.rx_o[4] top.uart_tb.dut.rx_o[3] top.uart_tb.dut.rx_o[2] top.uart_tb.dut.rx_o[1] top.uart_tb.dut.rx_o[0]
+@28
+>0
+top.uart_tb.dut.rx_o[7]
+top.uart_tb.dut.rx_o[6]
+top.uart_tb.dut.rx_o[5]
+top.uart_tb.dut.rx_o[4]
+top.uart_tb.dut.rx_o[3]
+top.uart_tb.dut.rx_o[2]
+top.uart_tb.dut.rx_o[1]
+top.uart_tb.dut.rx_o[0]
+@1401200
+>1010000
+-group_end
+@200
+>0
+-TX
+@24
+#{top.uart_tb.dut.b_tx.oversample_cntr[15:0]} top.uart_tb.dut.b_tx.oversample_cntr[15] top.uart_tb.dut.b_tx.oversample_cntr[14] top.uart_tb.dut.b_tx.oversample_cntr[13] top.uart_tb.dut.b_tx.oversample_cntr[12] top.uart_tb.dut.b_tx.oversample_cntr[11] top.uart_tb.dut.b_tx.oversample_cntr[10] top.uart_tb.dut.b_tx.oversample_cntr[9] top.uart_tb.dut.b_tx.oversample_cntr[8] top.uart_tb.dut.b_tx.oversample_cntr[7] top.uart_tb.dut.b_tx.oversample_cntr[6] top.uart_tb.dut.b_tx.oversample_cntr[5] top.uart_tb.dut.b_tx.oversample_cntr[4] top.uart_tb.dut.b_tx.oversample_cntr[3] top.uart_tb.dut.b_tx.oversample_cntr[2] top.uart_tb.dut.b_tx.oversample_cntr[1] top.uart_tb.dut.b_tx.oversample_cntr[0]
+@28
+top.uart_tb.dut.b_tx.oversample_clken
+@24
+#{top.uart_tb.dut.b_tx.baud_cntr[3:0]} top.uart_tb.dut.b_tx.baud_cntr[3] top.uart_tb.dut.b_tx.baud_cntr[2] top.uart_tb.dut.b_tx.baud_cntr[1] top.uart_tb.dut.b_tx.baud_cntr[0]
+@28
+top.uart_tb.dut.b_tx.send_bit
+top.uart_tb.dut.b_tx.parity_bit
+top.uart_tb.dut.b_tx.tx_bit
+@420
+top.uart_tb.dut.b_tx.next_state
+top.uart_tb.dut.b_tx.state
+@28
+top.uart_tb.dut.b_tx.buf.wr
+top.uart_tb.dut.b_tx.buf.rd
+top.uart_tb.dut.b_tx.buf.empty
+@22
+#{top.uart_tb.dut.b_tx.buf.data[7:0]} top.uart_tb.dut.b_tx.buf.data[7] top.uart_tb.dut.b_tx.buf.data[6] top.uart_tb.dut.b_tx.buf.data[5] top.uart_tb.dut.b_tx.buf.data[4] top.uart_tb.dut.b_tx.buf.data[3] top.uart_tb.dut.b_tx.buf.data[2] top.uart_tb.dut.b_tx.buf.data[1] top.uart_tb.dut.b_tx.buf.data[0]
+#{top.uart_tb.dut.b_tx.shift_reg[7:0]} top.uart_tb.dut.b_tx.shift_reg[7] top.uart_tb.dut.b_tx.shift_reg[6] top.uart_tb.dut.b_tx.shift_reg[5] top.uart_tb.dut.b_tx.shift_reg[4] top.uart_tb.dut.b_tx.shift_reg[3] top.uart_tb.dut.b_tx.shift_reg[2] top.uart_tb.dut.b_tx.shift_reg[1] top.uart_tb.dut.b_tx.shift_reg[0]
+@25
+#{top.uart_tb.dut.b_tx.bit_cntr[2:0]} top.uart_tb.dut.b_tx.bit_cntr[2] top.uart_tb.dut.b_tx.bit_cntr[1] top.uart_tb.dut.b_tx.bit_cntr[0]
+@200
+-RX
+@24
+#{top.uart_tb.dut.b_rx.oversample_cntr[15:0]} top.uart_tb.dut.b_rx.oversample_cntr[15] top.uart_tb.dut.b_rx.oversample_cntr[14] top.uart_tb.dut.b_rx.oversample_cntr[13] top.uart_tb.dut.b_rx.oversample_cntr[12] top.uart_tb.dut.b_rx.oversample_cntr[11] top.uart_tb.dut.b_rx.oversample_cntr[10] top.uart_tb.dut.b_rx.oversample_cntr[9] top.uart_tb.dut.b_rx.oversample_cntr[8] top.uart_tb.dut.b_rx.oversample_cntr[7] top.uart_tb.dut.b_rx.oversample_cntr[6] top.uart_tb.dut.b_rx.oversample_cntr[5] top.uart_tb.dut.b_rx.oversample_cntr[4] top.uart_tb.dut.b_rx.oversample_cntr[3] top.uart_tb.dut.b_rx.oversample_cntr[2] top.uart_tb.dut.b_rx.oversample_cntr[1] top.uart_tb.dut.b_rx.oversample_cntr[0]
+@28
+top.uart_tb.dut.b_rx.oversample_clken
+@22
+#{top.uart_tb.dut.b_rx.baud_cntr[3:0]} top.uart_tb.dut.b_rx.baud_cntr[3] top.uart_tb.dut.b_rx.baud_cntr[2] top.uart_tb.dut.b_rx.baud_cntr[1] top.uart_tb.dut.b_rx.baud_cntr[0]
+@28
+top.uart_tb.dut.b_rx.sample
+top.uart_tb.dut.b_rx.parity_bit
+top.uart_tb.dut.b_rx.rx_bit
+@420
+top.uart_tb.dut.b_rx.next_state
+top.uart_tb.dut.b_rx.state
+@24
+#{top.uart_tb.dut.b_rx.bit_cntr[2:0]} top.uart_tb.dut.b_rx.bit_cntr[2] top.uart_tb.dut.b_rx.bit_cntr[1] top.uart_tb.dut.b_rx.bit_cntr[0]
+@22
+#{top.uart_tb.dut.b_rx.shift_reg[7:0]} top.uart_tb.dut.b_rx.shift_reg[7] top.uart_tb.dut.b_rx.shift_reg[6] top.uart_tb.dut.b_rx.shift_reg[5] top.uart_tb.dut.b_rx.shift_reg[4] top.uart_tb.dut.b_rx.shift_reg[3] top.uart_tb.dut.b_rx.shift_reg[2] top.uart_tb.dut.b_rx.shift_reg[1] top.uart_tb.dut.b_rx.shift_reg[0]
+@28
+top.uart_tb.dut.b_rx.buf.rd
+top.uart_tb.dut.b_rx.buf.wr
+top.uart_tb.dut.b_rx.buf.full
+@22
+#{top.uart_tb.dut.b_rx.buf.data[7:0]} top.uart_tb.dut.b_rx.buf.data[7] top.uart_tb.dut.b_rx.buf.data[6] top.uart_tb.dut.b_rx.buf.data[5] top.uart_tb.dut.b_rx.buf.data[4] top.uart_tb.dut.b_rx.buf.data[3] top.uart_tb.dut.b_rx.buf.data[2] top.uart_tb.dut.b_rx.buf.data[1] top.uart_tb.dut.b_rx.buf.data[0]
+[pattern_trace] 1
+[pattern_trace] 0
