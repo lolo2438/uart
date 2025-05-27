@@ -1,6 +1,7 @@
 from vunit import VUnit
 
 vu = VUnit.from_argv()
+vu.add_vhdl_builtins()  # Add this line!
 vu.add_com()
 vu.add_verification_components()
 
